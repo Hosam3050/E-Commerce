@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body>
+  <section class="home">
+    <div class="form_container">
+      <i class="uil uil-times form_close" ></i>
+    <!-- signup -->
+    <div class="form signup_form">
+      <form action="#">
+        <h2>Signup</h2>
+        <div class="input_box">
+          <input type="text" placeholder="Enter Your name" required  id="user">
+          <i class="uil uil-user user"></i>
+        </div>
+        <div class="input_box">
+          <input type="email" placeholder="Enter Your Email" required  id="email">
+          <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Create Password" required id="pass">
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+          
+        <!-- <div class="input_box">
+          <input type="password" placeholder="Confirm Password" required>
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw_hide"></i>
+        </div> -->
+        </div>
+      </form>
+      <button class="button" onclick="signup()">Signup Now</button>
+      <div class="login_signup">
+        Already have an account? <a style="color: #000000; font-size: large; margin-left: 15px; text-decoration: underline;" href="login.html" id="signup">Login</a>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="./js/main.js"></script>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>websit with login</title>
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body>
+  <!-- <header class="header">
+    <nav class="nav">
+      <a href="#" class="nav_logo"><img src="image/logo.png" alt="img"></a>
+      <ul class="nav_items">
+        <li class="nav_item">
+          <a href="home.html" class="nav_link">Home</a>
+          <a href="#" class="nav_link">Product</a>
+          <a href="#" class="nav_link">Services</a>
+          <a href="#" class="nav_link">Contact</a>
+        </li>
+      </ul>
+      <button class="button" >login</button>
+    </nav>
+  </header> -->
+  <section class="home">
+    <div class="form_container">
+      <i class="uil uil-times form_close" id="close"></i>
+      <!-- login form -->
+      <div class="form login_form">
+        <form action="#">
+          <h2>Login</h2>
+          <div class="input_box">
+            <input type="text" placeholder="Enter Your name" required  id="user">
+            <i class="uil uil-user user"></i>
+          </div>
+          <div class="input_box">
+            <input type="email" placeholder="Enter Your Email" required id="email">
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Enter Your Password" required id="pass">
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide" onclick="close()"></i>
+          </div>
+          <div class="option_field">
+            <span class="checkbox">
+              <input type="checkbox" id="check ">
+              <label for="check">Remember me</label>
+              <a href="#" class="Forgot_pw">Forgot Password?</a>
+            </span>
+          </div>
+        </form>
+        <button class="button" onclick="login()"> Login Now</button>
+        <div class="login_signup">
+          Dont have an account? <a style="color: #000000; font-size: large; margin-left: 15px; text-decoration: underline;" href="signup.html" id="signup">Signup</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="./js/main.js"></script>
+</html>
